@@ -32,7 +32,7 @@ public class MemberApiController {
 
         }catch (Exception e) {
             resultMap.put("message", "FAILED!!");
-            httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+            httpStatus = HttpStatus.NO_CONTENT;
         }
 
         return new ResponseEntity<>(resultMap, httpStatus);
