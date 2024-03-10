@@ -27,4 +27,8 @@ public class MemberService {
         if (!findMembers.isEmpty()) throw new IllegalStateException("동일한 이름의 회원이 존재합니다.");
     }
 
+    public void follow(Long id, String name) {
+
+    }
+
 }
